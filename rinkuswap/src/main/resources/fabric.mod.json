@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "rinkuswap",
+  "version": "${version}",
+  "name": "Rinku Swap",
+  "description": "ATRSwap + Speed Control. Left click pe instant slot swap with adjustable speed 0.05s to 1s!",
+  "authors": [ "Rinku" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "me.rinku.rinkuswap.RinkuSwapClient" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api":   "*",
+    "minecraft":    "~1.21.11",
+    "java":         ">=21"
+  }
+}
